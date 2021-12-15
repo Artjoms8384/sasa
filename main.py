@@ -1,14 +1,12 @@
-a = int(input('Enter first number : '))
-b = int(input('Enter second number : '))
-c = int(input('Enter third number : '))
+print('No 2 precess, bus atlaide')
+dz = int (input('Izveles produktu daudzums'))
+summ = dz *2.35
+print(summ)
 
-smallest = 0
-
-if a < b and a < c :
-  smallest = a
-if b < a and b < c :
-  smallest = b
-if c < a and c < b :
-  smallest = c
-
-  print(smallest,"is the smallest of three numbers")
+if dz >=2:
+  print('Jusu atlaide ir 10%')
+  atl = summ *10/100
+  at = round(summ - atl,2)
+  print('Cena par pirkumiem ir ' + str(at))
+  else:
+    print ('Jums nav atlaide')
